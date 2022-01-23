@@ -8,14 +8,6 @@ module.exports = {
     "@storybook/addon-essentials",
     "storybook-addon-gatsby",
   ],
-webpackFinal: async (config, { configType }) => {
-  config.output.publicPath = '/_storybook/';
-  return config;
-},
-managerWebpack: async (config) => {
-  config.output.publicPath = '/_storybook/';
-  return config;
-},
   core: {
     builder: "webpack5",
   },
