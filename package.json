@@ -1,0 +1,63 @@
+{
+  "name": "gatsby-starter-storybook-theme-ui",
+  "private": true,
+  "description": "A Gatsby starter with Storybook and Theme UI",
+  "version": "0.1.0",
+  "author": "Nicholas Martin <nicholas.martin@builtbyrebels.com>",
+  "dependencies": {
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@fontsource/open-sans": "^4.5.2",
+    "@mdx-js/react": "^1.6.22",
+    "@theme-ui/preset-funk": "^0.13.1",
+    "@theme-ui/preset-future": "^0.13.1",
+    "gatsby": "^4.5.4",
+    "gatsby-plugin-gatsby-cloud": "^4.5.2",
+    "gatsby-plugin-image": "^2.5.2",
+    "gatsby-plugin-manifest": "^4.5.2",
+    "gatsby-plugin-offline": "^5.5.2",
+    "gatsby-plugin-react-helmet": "^5.5.0",
+    "gatsby-plugin-sharp": "^4.5.2",
+    "gatsby-plugin-theme-ui": "^0.13.1",
+    "gatsby-source-filesystem": "^4.5.2",
+    "gatsby-transformer-sharp": "^4.5.0",
+    "prop-types": "^15.8.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "storybook-addon-gatsby": "^0.0.3",
+    "theme-ui": "^0.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.10",
+    "@storybook/addon-actions": "^6.4.14",
+    "@storybook/addon-essentials": "^6.4.14",
+    "@storybook/addon-links": "^6.4.14",
+    "@storybook/builder-webpack5": "^6.4.14",
+    "@storybook/manager-webpack5": "^6.4.14",
+    "@storybook/react": "^6.4.14",
+    "babel-loader": "^8.2.3",
+    "prettier": "^2.5.1",
+    "webpack": "5"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/builtbyrebels/gatsby-starter-storybook-theme-ui"
+  }
+}
