@@ -4,7 +4,8 @@ import { Link } from "gatsby"
 import { Box, Heading } from "theme-ui"
 
 const Header = ({ siteTitle }) => (
-  <Box as='header'
+  <Box
+    as="header"
     sx={{
       background: `rebeccapurple`,
       marginBottom: `1.45rem`,
@@ -17,7 +18,7 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <Heading as='h1' sx={{ margin: 0 }}>
+      <Heading as="h1" sx={{ margin: 0 }}>
         <Link
           to="/"
           style={{

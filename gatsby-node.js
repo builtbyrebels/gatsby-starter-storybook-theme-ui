@@ -1,4 +1,4 @@
-const { execSync } = require("child_process");
+const { execSync } = require("child_process")
 
 exports.createPages = async ({ actions }) => {
   const { createPage } = actions
@@ -11,8 +11,6 @@ exports.createPages = async ({ actions }) => {
 }
 
 exports.onPostBuild = async ({ reporter }) => {
-  reporter.info(
-   `Publishing Storybook`
-  );
-  await execSync('./node_modules/.bin/build-storybook -o ./public/_storybook')
+  reporter.info(`Publishing Storybook`)
+  await execSync("./node_modules/.bin/build-storybook -o ./public/_storybook")
 }

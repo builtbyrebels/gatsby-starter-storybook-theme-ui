@@ -7,6 +7,8 @@
   Gatsby + Storybook + Theme UI starter
 </h1>
 
+> This is a work in progress 🚧
+
 Kick off your Gatsby project with this Storybook + Theme UI boilerplate. This starter ships with a modified version of the default Gatsby starter to include Storybook and Theme UI.
 
 ## 🚀 Quick start

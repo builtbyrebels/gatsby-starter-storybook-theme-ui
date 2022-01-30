@@ -8,7 +8,9 @@ const NotFoundPage = () => (
   <Layout>
     <Seo title="404: Not found" />
     <Heading>404: Not Found</Heading>
-    <Paragraph>You just hit a route that doesn&#39;t exist... the sadness.</Paragraph>
+    <Paragraph>
+      You just hit a route that doesn&#39;t exist... the sadness.
+    </Paragraph>
   </Layout>
 )
 

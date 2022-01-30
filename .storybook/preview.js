@@ -1,9 +1,9 @@
-import { ThemeProvider } from "theme-ui";
-import { addDecorator } from "@storybook/react";
+import { ThemeProvider } from "theme-ui"
+import { addDecorator } from "@storybook/react"
 
 import "@fontsource/open-sans"
 
-import theme from "../src/gatsby-plugin-theme-ui";
+import theme from "../src/gatsby-plugin-theme-ui"
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
@@ -15,8 +15,8 @@ export const parameters = {
   },
 }
 
-addDecorator((Story) => (
+addDecorator(Story => (
   <ThemeProvider theme={theme}>
     <Story />
   </ThemeProvider>
-));
+))

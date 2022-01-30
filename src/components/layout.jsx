@@ -34,15 +34,17 @@ const Layout = ({ children }) => {
           padding: `0 1.0875rem 1.45rem`,
         }}
       >
-        <Box as='main'>{children}</Box>
-        <Box as='footer'
+        <Box as="main">{children}</Box>
+        <Box
+          as="footer"
           sx={{
             marginTop: `2rem`,
           }}
         >
-          <Paragraph variant="footer">© {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          <Paragraph variant="footer">
+            © {new Date().getFullYear()}, Built with
+            {` `}
+            <a href="https://www.gatsbyjs.com">Gatsby</a>
           </Paragraph>
         </Box>
       </Box>
